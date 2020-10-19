@@ -1,0 +1,9 @@
+DFT Modeling of Photo-Electrochemical Reactions on Semiconductors: H2 Evolution on 3C-SiC
+Manav Bhati, Yu Chen, and Thomas P. Senftle
+
+HER on three surfaces of 3C-SiC (6-layers) was modeled using DFT and VASPsol. There are three levels of folders as described below:
+
+1. Each folder contains the calculation for a particular surface of SiC (3x2,3x4,6x4). The KPOINT and POTCAR files can be found in each of these three folders.
+2. The next level of sub-folders contains several HER reaction intermediates on a particular surface.
+3. The final level of sub-folders contains the relaxation and energy minimization calculations of different charge states of the reaction intermediates. These folders contain the POSCAR, INCAR and CONTCAR (and MODECAR for TS serach) files. Folder name '1_vacuum' means first calculation in vacuum (without VASPsol), second calculation is '2_solv_q0' and is the solvation calculation of neutral system with solvation, 'qn/qp' folders means a solvation calculation with the applied negative/positive charge to the structure and the amount of charge is followed by 'qn/qp' in the folder name.
+
